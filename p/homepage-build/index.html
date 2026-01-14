@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-cn" dir="ltr">
+<html lang="en-us" dir="ltr">
     <head><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="回顾建立主页这三天的心路历程，给新手小白一些建议（大佬勿入）">
 <title>如何快捷方便的建立个人主页</title>
@@ -58,7 +58,7 @@
                     
                     
                         
-                        <img src="/img/snake_hu_9f1ce0f29e1ca3b3.png" width="300"
+                        <img src="/img/snake_hu_557a251d1890e725.png" width="300"
                             height="300" class="site-logo" loading="lazy" alt="Avatar">
                     
                 
@@ -355,7 +355,8 @@
 <p>参考如下Bilibili中的视频进行配置即可（视频中使用的是Windows电脑进行配置，本人使用的是MacOS进行配置）：</p>
 <blockquote>
 <p><a class="link" href="https://b23.tv/wLD7zMu"  target="_blank" rel="noopener"
-    >Hugo + Github免费搭建博客，并实现自动化部署</a></p></blockquote>
+    >Hugo + Github免费搭建博客，并实现自动化部署</a></p>
+</blockquote>
 <p>该视频分为四个部分：</p>
 <ul>
 <li>hugo博客搭建</li>
@@ -387,7 +388,8 @@
 </div><p>如果无法下载可以去Github页面的进行下载和安装:</p>
 <blockquote>
 <p><a class="link" href="https://github.com/Homebrew/brew/releases/tag/4.6.4"  target="_blank" rel="noopener"
-    >Homebrew/brew</a></p></blockquote>
+    >Homebrew/brew</a></p>
+</blockquote>
 <p>如果出现以下代码就说明已经安装好Homebrew了：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -444,7 +446,8 @@
 </h3><p>Git的下载和安装按照视频中展示的方法即可，网址如下：</p>
 <blockquote>
 <p><a class="link" href="https://git-scm.com"  target="_blank" rel="noopener"
-    >Git官方网站</a></p></blockquote>
+    >Git官方网站</a></p>
+</blockquote>
 <p>MacOS端建议先下载一个Xcode，一般会包含一个git包，如果没有那就从Homebrew下载：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -471,10 +474,12 @@
 <p>这里注意在MacOS下直接设置：新建前面是<code>.</code>开头的文件是不合法的，只能在Terminal中<code>mkdir</code>，有关MacOS中为什么不能和Windows一样，直接设置以<code>.</code>开头的问题可以参考如下的视频：</p>
 <blockquote>
 <p><a class="link" href="https://b23.tv/fPQexgG"  target="_blank" rel="noopener"
-    >为什么macOS喜欢在文件系统里到处拉屎？</a></p></blockquote>
+    >为什么macOS喜欢在文件系统里到处拉屎？</a></p>
+</blockquote>
 <blockquote>
 <p><a class="link" href="https://b23.tv/bczprCb"  target="_blank" rel="noopener"
-    >访达的秘密：揭秘macOS文件显示的底层逻辑</a></p></blockquote>
+    >访达的秘密：揭秘macOS文件显示的底层逻辑</a></p>
+</blockquote>
 <p>设置<code>.github/workflows/hugo_deploy.yaml</code>文件中自动部署代码如下：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -521,13 +526,13 @@
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">deploy</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c"># 代码提交到main分支时触发github action</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">on</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="c"># 代码提交到main分支时触发github action</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">on</span><span class="p">:</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">push</span><span class="p">:</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">branches</span><span class="p">:</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">main</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">jobs</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">jobs</span><span class="p">:</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">deploy</span><span class="p">:</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">runs-on</span><span class="p">:</span><span class="w"> </span><span class="l">ubuntu-latest</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">steps</span><span class="p">:</span><span class="w">
@@ -554,10 +559,10 @@
 </span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">PUBLISH_DIR</span><span class="p">:</span><span class="w"> </span><span class="l">./public</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">commit_message</span><span class="p">:</span><span class="w"> </span><span class="l">auto deploy</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="l">自动部署的命令行代码：在dev文件夹中执行命令</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="l">git add .</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="l">git commit -m “update”</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="l">git push</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="l">自动部署的命令行代码：在dev文件夹中执行命令</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="l">git add .</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="l">git commit -m “update”</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="l">git push</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>自动部署的命令行代码如上展示，输入完等待几分钟即可完成个人主页的自动更新。</p>
@@ -609,7 +614,9 @@
     <section class="copyright">
         &copy; 
         
-        2025 Mask Zhang
+            2025 - 
+        
+        2026 Mask Zhang
     </section>
     
     <section class="powerby">
