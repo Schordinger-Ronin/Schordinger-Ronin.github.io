@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>日常 on Mask Zhang</title>
+        <link>https://schordinger-ronin.github.io/categories/%E6%97%A5%E5%B8%B8/</link>
+        <description>Recent content in 日常 on Mask Zhang</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>Mask Zhang</copyright>
+        <lastBuildDate>Fri, 28 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://schordinger-ronin.github.io/categories/%E6%97%A5%E5%B8%B8/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>每日计划表</title>
+        <link>https://schordinger-ronin.github.io/p/daily-schedule/</link>
+        <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
+        
+        <guid>https://schordinger-ronin.github.io/p/daily-schedule/</guid>
+        <description>&lt;h1 id=&#34;前言&#34;&gt;前言
+&lt;/h1&gt;&lt;p&gt;暑假即将过去，为保证研二顺利达到毕业要求和以后人生道路的稳定运行，现制定如下的每日计划表，由于下学期没有课程，其他事项暂时没确定，此日程表仅供没有特殊事宜时使用，待开学所有日常确定之后会有一个新的包含从星期一到星期日的完整日程表，望以后能严格执行，顺利毕业。&lt;/p&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th style=&#34;text-align: center&#34;&gt;时间&lt;/th&gt;
+					&lt;th&gt;安排&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: center&#34;&gt;08:00&lt;/td&gt;
+					&lt;td&gt;起床&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: center&#34;&gt;08:00 - 9:00&lt;/td&gt;
+					&lt;td&gt;洗漱 +早饭&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: center&#34;&gt;09:00 - 12:00&lt;/td&gt;
+					&lt;td&gt;科研项目&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: center&#34;&gt;12:00 - 13:00&lt;/td&gt;
+					&lt;td&gt;午饭 + 自由活动&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: center&#34;&gt;13:00 - 14:30&lt;/td&gt;
+					&lt;td&gt;午休&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: center&#34;&gt;14:30 - 17:30&lt;/td&gt;
+					&lt;td&gt;科研项目&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: center&#34;&gt;17:30 - 19:00&lt;/td&gt;
+					&lt;td&gt;晚饭 + 洗澡 / 自由活动&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: center&#34;&gt;19:00 - 20:00&lt;/td&gt;
+					&lt;td&gt;自由活动 + 内务&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: center&#34;&gt;20:00 - 23:00&lt;/td&gt;
+					&lt;td&gt;Quant / Leetcode / 科研&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: center&#34;&gt;23:00 - 24:00&lt;/td&gt;
+					&lt;td&gt;自由阅读&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: center&#34;&gt;24:00&lt;/td&gt;
+					&lt;td&gt;睡觉&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;此计划表直至发表出第一篇文章/达到毕业要求后停止使用。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
